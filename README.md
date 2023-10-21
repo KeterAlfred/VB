@@ -4,6 +4,17 @@
 
 Methods for alleviating the reference standard and verification biases in tuberculosis prevalence surveys
 
+## Simulation
+
+We simulated the data mimicking the setting of active tuberculosis (TB) case-finding using the script named "Sim_dat_Final1.R".
+
+Our aim was to apply Bayesian LCA to alleviate the reference standard bias and extend the Bayesian latent class model to alleviate the verification bias. The biases are explained in the manuscript.
+
+Standard LCA assumes that conditional on the true TB status, the diagnostic tests are independent. However, in practice, and particularly for TB diagnostic tests, certain sets of diagnostic tests are known to be dependent. These dependencies are explained in the manuscript. In order to ensure that our methods are able to handle these dependencies, we simulated data in which certain sets of diagnostic tests are strongly dependent among the true RB cases and among the true non-TB cases. The technical steps in which the data was simulated are presented in the manuscript. The simulation script is annotated to ensure that the data generation is clear.
+
+The analysis of data is explained below. It is important to read this README document to understand how the analysis was done and where the corresponding analysis scripts are found within the Github.
+
+
 
 We conducted naive Bayesian analysis and Bayesian latent class analysis (LCA). 
 
