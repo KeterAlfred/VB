@@ -512,7 +512,7 @@ round(pool.corr.D0,3)
 
 
 #Calculate the average frequency distributions across the 100 simulated datasets
-#This give the cross classification of the tests by verification status
+#This gives the cross classification of the tests by verification status
 
 # Create the design matrix to hold the output
 
