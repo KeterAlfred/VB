@@ -90,7 +90,7 @@ for (m in 1:M){
   
   # Simulate CAD4TB score
   kappa = 9.98
-  gamma0 =   gamma0 = -0.930 #-0.530
+  gamma0 = -0.930
   gamma1 = 0.536
   v1 = 1/ ( 1 + exp(-(gamma1 + c3*Y0 + 1.8*Y2)))
   v0 = 1/ ( 1 + exp(-(gamma0 + c3*Y0 + 1.1*Y1 + 0.75*Y2)))
